@@ -28,6 +28,7 @@ def printer(speakers)
    intro << assign_rooms(x)[index]
   end
   puts assignment
+  puts intro
 end
 
 ["tod", "bob", "lucy"]
