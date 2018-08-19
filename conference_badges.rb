@@ -27,7 +27,7 @@ def printer(speakers)
    assignment << batch_badge_creator(x)[index] 
    assignment << assign_rooms(x)[index]
   end
-  assignment
+  puts assignment
 end
 
 ["tod", "bob", "lucy"]
