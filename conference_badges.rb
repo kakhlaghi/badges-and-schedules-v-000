@@ -24,7 +24,7 @@ def printer(speakers)
   assignment= []
   names << speakers
   names.collect.with_index do |x, index|
-   return batch_badge_creator(x)[index] + " " + assign_rooms(x)[index]
+   return batch_badge_creator(x)[index] assign_rooms(x)[index]
   end
  
 end
