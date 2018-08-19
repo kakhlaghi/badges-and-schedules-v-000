@@ -24,10 +24,10 @@ def printer(speakers)
   assignment= []
   names << speakers
   names.collect.with_index do |x, index|
-   puts batch_badge_creator(x)[index] 
+   assignment << puts batch_badge_creator(x)[index] 
    puts assign_rooms(x)[index]
   end
- 
+  
 end
 
 ["tod", "bob", "lucy"]
